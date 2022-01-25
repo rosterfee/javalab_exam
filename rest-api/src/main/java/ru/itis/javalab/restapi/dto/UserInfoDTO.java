@@ -1,4 +1,4 @@
-package ru.itis.javalab.restapi.entities;
+package ru.itis.javalab.restapi.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -17,7 +17,7 @@ import java.io.Serializable;
 @Builder
 @AllArgsConstructor
 @NoArgsConstructor
-public class User implements Serializable {
+public class UserInfoDTO implements Serializable {
 
     private String firstName;
     private String lastName;

@@ -1,6 +1,7 @@
 package ru.itis.javalab.restapi.services;
 
 import ru.itis.javalab.restapi.dto.UserInfoDTO;
+import ru.itis.javalab.restapi.entities.PdfInfo;
 
 /**
  * @author Киямдинов Ильдар
@@ -8,8 +9,8 @@ import ru.itis.javalab.restapi.dto.UserInfoDTO;
  * @created 24.01.2022
  */
 
-public interface PdfService {
+public interface PdfInfoService {
 
-    byte[] generatePdf(UserInfoDTO userInfoDTO, String statementType);
+    void save(UserInfoDTO userInfoDTO, String username, String statementType);
 
 }
