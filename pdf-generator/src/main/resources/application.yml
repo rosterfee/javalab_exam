@@ -1,4 +1,4 @@
 spring:
   rabbitmq:
     addresses: ${AMQP_URL}
-#    host: ${RABBITMQ_HOST}
+    host: ${RABBITMQ_HOST}
