@@ -75,7 +75,6 @@ services:
       timeout: 15s
       retries: 1
 
-
   redis:
     image:
       bitnami/redis:latest
